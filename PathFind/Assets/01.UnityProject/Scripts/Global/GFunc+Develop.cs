@@ -30,6 +30,8 @@ public static partial class GFunc
     }       // Log()
     #endregion      // Print log func
 
+
+
     #region Assert for debug
     [System.Diagnostics.Conditional("DEBUG_MODE")]
     public static void Assert(bool condition)
@@ -47,6 +49,8 @@ public static partial class GFunc
 #endif      // DEBUG_MODE
     }       // Assert()
     #endregion      // Assert for debug
+
+
 
     #region Vaild Func
     //! 컴포넌트의 유효성을 검사한다.

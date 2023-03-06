@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TerrinaControler : MonoBehaviour
+public class TerrainControler : MonoBehaviour
 {
     private const string TILE_FRONT_RENDERER_OBJ_NAME = "FrontRenderer";
 
@@ -29,4 +29,4 @@ public class TerrinaControler : MonoBehaviour
         //frontRenderer 
     }   // Awake()
 
-}   // class TerrinaControler
+}   // class TerrainControler

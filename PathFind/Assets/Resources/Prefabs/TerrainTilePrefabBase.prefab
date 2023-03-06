@@ -7,6 +7,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 665814072470577086, guid: 918ad5baf8a810542882d3c9e1fb7322, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 665814072470577086, guid: 918ad5baf8a810542882d3c9e1fb7322, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 665814072470577086, guid: 918ad5baf8a810542882d3c9e1fb7322, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -151696819
+      objectReference: {fileID: 0}
     - target: {fileID: 665814072515337974, guid: 918ad5baf8a810542882d3c9e1fb7322, type: 3}
       propertyPath: m_Name
       value: TerrainTilePrefabBase
@@ -118,6 +130,18 @@ PrefabInstance:
     - target: {fileID: 665814074172738636, guid: 918ad5baf8a810542882d3c9e1fb7322, type: 3}
       propertyPath: m_Name
       value: FrontRenderer
+      objectReference: {fileID: 0}
+    - target: {fileID: 665814074172738674, guid: 918ad5baf8a810542882d3c9e1fb7322, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 665814074172738674, guid: 918ad5baf8a810542882d3c9e1fb7322, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 665814074172738674, guid: 918ad5baf8a810542882d3c9e1fb7322, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -151696819
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 918ad5baf8a810542882d3c9e1fb7322, type: 3}
