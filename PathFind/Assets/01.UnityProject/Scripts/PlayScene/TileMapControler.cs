@@ -19,6 +19,14 @@ public class TileMapControler : MonoBehaviour
         tileMap = gameObject.FindChildObjComponent<Tilemap>(tileMapObjName);
 
         // 직사각형 형태로 초기화된 타일을 캐싱해서 사지고 있는다.
-        //allTileObjs =
+        allTileObjs = tileMap.gameObject.GetChildrenObjs();
+
+        if (allTileObjs.IsValid())
+        {
+            allTileObjs.Sort(GFunc.CompareTileObjToLocalPos2D);
+        }
+        else { allTileObjs = new List<GameObject>(); }
+
+        /* ToDo */
     }   // InitAwake()
 }   // class TileMapControler
