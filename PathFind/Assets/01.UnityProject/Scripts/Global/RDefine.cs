@@ -8,7 +8,7 @@ public static class RDefine
     public const string TERRAIN_PREF_PLAIN = "Terrain_Plain";
 
 
-    public const string OBSTACLE_PREF_PLAIN_CASTLE = "asdsaa";
+    public const string OBSTACLE_PREF_PLAIN_CASTLE = "Obstacle_PlanCastle";
 
     public enum TileStatusColor
     {
